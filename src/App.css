@@ -1,0 +1,41 @@
+.App{
+  display: flex;
+flex-direction: column;
+}
+svg{
+  display: block;
+  margin: 0 auto;
+}
+#circle {
+  margin: 0 auto;
+  display: block;
+  
+}
+.circlebar{
+  width: 200px!important;
+  height: 200px!important;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -240px;
+  padding: 10px;
+}
+
+.settings{
+  margin: 0 auto;
+  display: block;
+  
+}
+
+body{
+  margin: 10px;
+}
+
+.topbuttons{
+  margin: 0 auto;
+  display: block;
+}
